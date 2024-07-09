@@ -13,5 +13,5 @@ import lombok.Setter;
 public class Member {
     @Id @GeneratedValue
     @Column(name = "MEMBER_ID")
-    private Long id;
+    private Long id; // 테스트용 주석입니다.
 }
